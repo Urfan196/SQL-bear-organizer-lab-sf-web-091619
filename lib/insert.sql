@@ -1,12 +1,12 @@
 INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES
-("Mr. Chocolate", 2, "female", "brown", "mad", true),
-("Rowdy", 10, "male", "white", "mad", true),
-("Tabitha", 3, "male", "black", "mad", false),
-("Sergeant Brown", 3, "male", "brown", "mad", true),
-("Melissa", 5, "female", "black", "goofy", false),
-("Grinch", 2, "male", "brown", "mad", true),
-("Wendy", 1, "female", "black", "happy", false)
-(null, 3, "male", "brown", "mad", true);
+("Mr. Chocolate", 2, "female", "brown", "mad", 0),
+("Rowdy", 10, "male", "white", "mad", 1),
+("Tabitha", 3, "male", "black", "mad", 1),
+("Sergeant Brown", 3, "male", "brown", "mad", 0),
+("Melissa", 5, "female", "black", "goofy", 1),
+("Grinch", 2, "male", "brown", "mad", 0),
+("Wendy", 1, "female", "black", "happy", 1)
+(null, 3, "male", "brown", "mad", 0);
 
 
 -- INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ("Mr. Chocolate", 2, "female", "brown", "mad", true);
